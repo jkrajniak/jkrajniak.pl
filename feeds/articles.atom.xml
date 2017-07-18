@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jakub Krajniak</title><link href="http://jkrajniak.pl/" rel="alternate"></link><link href="http://jkrajniak.pl/feeds/articles.atom.xml" rel="self"></link><id>http://jkrajniak.pl/</id><updated>2016-10-14T00:00:00+02:00</updated><entry><title>Generic adaptive resolution approach to refeverse mapping of polymer melts</title><link href="http://jkrajniak.pl/generic-adaptive-resolution-approach-to-refeverse-mapping-of-polymer-melts.html" rel="alternate"></link><updated>2016-10-14T00:00:00+02:00</updated><author><name>Jakub Krajniak</name></author><id>tag:jkrajniak.pl,2016-10-14:generic-adaptive-resolution-approach-to-refeverse-mapping-of-polymer-melts.html</id><summary type="html">&lt;p&gt;Over the past two decades, coarse-grained (CG) simulation has become an important method that allows exploring
+behaviour of larger (bio-)polymer systems over longer time scales. Although many properties of polymers can be
+analysed at the CG level, some properties strictly depend on the presence of fine-scale degrees of freedom.
+Therefore, there is a demand for a computational tool that reintroduces atomistic details in an already performed
+coarse-grained simulation.&lt;/p&gt;
+&lt;p&gt;In this contribution, we present a generic method of reverse mapping that is based on the adaptive resolution
+scheme (AdResS). In AdResS simulation, one brings together two spatial domains, modelled at two different
+scales, in a concurrent simulation. This is done by defining a hybrid region where, by the spatial-dependent
+switching function, particles change from the coarse-grained to the atomistic resolution. We use this
+method from a different perspective by treating a whole simulation box as a hybrid region and using the time-dependent
+switching function. Additionally, we introduce bonded potentials that scale with changing resolution. This
+approach prevents the introduction of a huge potential energy that could arise in the early stage where the
+resolution is close to the coarse-grained. We use our method to reconstruct polymer melts and complex polymer
+networks from the coarse-grained to the all-atom state. We compare conformational and dynamical properties of
+reconstructed systems with the reference atomistic simulation.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://mmm2016.iop.org/IOP/media/uploaded/EVIOP/event_817/MMM_2016_Abstracts.pdf"&gt;(abstract book)&lt;/a&gt;&lt;/p&gt;
+</summary><category term="conferences"></category></entry><entry><title>Generic adaptive resolution method for reverse mapping of polymers from coarse-grained to atomistic descriptions</title><link href="http://jkrajniak.pl/generic-adaptive-resolution-method-for-reverse-mapping-of-polymers-from-coarse-grained-to-atomistic-descriptions.html" rel="alternate"></link><updated>2016-09-29T00:04:00+02:00</updated><author><name>Jakub Krajniak</name></author><id>tag:jkrajniak.pl,2016-09-29:generic-adaptive-resolution-method-for-reverse-mapping-of-polymers-from-coarse-grained-to-atomistic-descriptions.html</id><summary type="html">&lt;p&gt;In this paper, we propose a new generic approach for reverse mapping from coarse-grained to atomistic scale based on the adaptive resolution scheme (AdResS).
+In AdResS simulation, two spatial domains, modelled at two different scales, are brought together in a concurrent simulation by defining a hybrid region where particles can switch representation from one model to another.
+We use AdResS as a central part of a reverse mapping algorithm from a different perspective by treating the whole simulation box as a hybrid region and changing the resolution as a function of time during the course of a molecular dynamics simulation.
+The proposed method depends only on a single parameter that controls the reverse mapping process and it is independent of atomistic and coarse-grained force-fields.
+We performed the reverse mapping of three different systems, a simple molecule (dodecane), a polymer chain (polyethylene) and a ring molecule (trimethylol melamine) with a degree of coarse-graining, ranging from two to ten heavy atoms.
+The conformational and dynamical properties of the reconstructed systems are in excellent agreement with the reference atomistic simulation.&lt;/p&gt;
+&lt;p&gt;DOI: 10.1021/acs.jctc.6b00595&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00595"&gt;(full text)&lt;/a&gt;&lt;/p&gt;
+</summary><category term="articles"></category></entry></feed>
