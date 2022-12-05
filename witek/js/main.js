@@ -3,7 +3,7 @@ function createToolbox(rowid, presentName, rowid) {
   var btn = document.createElement("button");
   btn.className = "btn waves-effect waves-ligh modal-trigger";
   btn.setAttribute("data-target", "modal1");
-  btn.innerHTML = "Wybieram <i class=\"material-icons right\">send</i>";
+  btn.innerHTML = "Chcę to podarować <i class=\"material-icons right\">send</i>";
   btn.setAttribute("data-attribute", presentName);
 
   btn.addEventListener("click", () => {
@@ -41,8 +41,13 @@ function createItem(row, rowid) {
     divDescription.appendChild(descriptionText);
     var arrowEl = document.createElement("i");
     arrowEl.className = "material-icons";
+    arrowEl.style = "margin-right: 0px";
     arrowEl.innerText = "arrow_drop_down";
     divName.appendChild(arrowEl);
+    var wiecejEl = document.createElement("span");
+    wiecejEl.innerText = "więcej";
+    wiecejEl.style = "font-size: small;";
+    divName.appendChild(wiecejEl);
     if (row.url) {
       var descAEL = document.createElement("a")
       descAEL.href = row.url;
@@ -68,6 +73,7 @@ jQuery(function($){
       var elLi = createItem(element);
       document.getElementById("wishlist").appendChild(elLi);
     });
+    $("#disclaimer").fadeIn(300);
   }).done(function() {
     setTimeout(function(){
       $("#overlay").fadeOut(300);
