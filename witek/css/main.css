@@ -1,3 +1,7 @@
+.ilike-blue-container {
+  @extend .blue, .lighten-4;
+}
+
 #wishlist .name {
     font-size: 2em;
 }
@@ -45,3 +49,8 @@
   .is-hide{
     display:none;
   }
+
+a.title-nav {font-size: large; padding: 0px; }
+@media (min-width: 1366px) {
+    a.title-nav {font-size: 4em;}
+}
